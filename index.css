@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Wix+Madefor+Display:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: "Quicksand", sans-serif; */
+  /* font-family: "Wix Madefor Display", sans-serif; */
+  /* font-family: "Outfit", sans-serif; */
+  scroll-behavior: smooth;
+}
+
+.screen{
+    width: 90%;
+    /* background: blue; */
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.topNav{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.topNav strong{
+    font-size: 1.4rem;
+}
+
+.topNav nav{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.topNav nav a{
+    color: black;
+    font-size: 0.9rem;
+}
+
+
+
+.topNav nav a:nth-last-child(1){
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 8px;
+}
+.screen{
+    display: grid;
+    gap: 7vh;
+}
+
+.headBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.headBox .left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+.headBox .left strong{
+    font-size: 1.7rem;
+}
+.headBox .left button{
+    border-radius: 5px;
+    padding: 8px;
+    background: black;
+    color: white;
+}
+.headBox img{
+    height: 300px;
+    margin: auto;
+    object-fit: contain;
+}
+.iconBox{
+    display: flex;
+    justify-content: space-between;
+}
+.iconBox i{
+    font-size: 2.5rem;
+    color: rgba(0, 255, 128, 0.911);
+}
+.serviceBox header{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+.serviceBox header h1{
+    background: #b5fd53;
+    padding: 5px;
+    
+}
+.gridBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.gridBox .gitem1 .item1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+}
+.gridBox .gitem1 img{
+    height: 200px
+}
+.gridBox .gitem2 img{
+    height: 200px
+}
+.gridBox .gitem3 img{
+    height: 200px
+}
+.gridBox .gitem4 img{
+    height: 200px
+}
+.gridBox .gitem2 .item2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+.gridBox .gitem3 .item3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+}
+.gridBox .gitem4 .item4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.gridBox .gitem1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    color: black;
+    border-radius: 25px;
+    border-bottom: 5px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 7px 29px 0px;
+    padding: 1rem;
+    
+    
+}
+.gridBox .gitem2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 25px;
+}
+.gridBox .gitem3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 25px;
+}
+.gridBox .gitem4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    color: black;
+    border-radius: 25px;
+    border-bottom: 5px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 7px 29px 0px;
+    padding: 1rem;
+}
+
+.gridBox .gitem1 .item1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.gridBox .gitem2 .item2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gridBox .gitem3 .item3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.gridBox .gitem4 .item4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gridBox .gitem4 .item4  strong{
+    background: rgb(79, 165, 79);
+    font-size: 20px;
+}
+.gridBox .gitem1 .item1  strong{
+    background: rgb(79, 165, 79);
+    font-size: 20px;
+}
+.gridBox .gitem2 .item2  strong{
+    background:white;
+    font-size: 20px;
+    color: black;
+}
+
+.gridBox .gitem3 .item3  strong{
+    background:white;
+    font-size: 20px;
+    color: black;
+}
+
+
+.headBox2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: lightgray;
+    padding: 1rem;
+    border-radius: 25px;
+}
+.headBox2 .left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+.headBox2 .left strong{
+    font-size: 1.7rem;
+}
+.headBox2 .left button{
+    border-radius: 5px;
+    padding: 8px;
+    background: black;
+    color: white;
+}
+.headBox2 img{
+    height: 300px;
+    margin: auto;
+    object-fit: contain;
+}
+
+
+.serviceBox2 header{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    
+}
+.serviceBox2 header h1{
+    background: #b5fd53;
+    padding: 5px;
+    font-size: 22px;
+    
+}
+.last{
+    display: grid;
+    grid-template-columns: 1fr 2px 1fr 2px 1fr 2px;
+    gap: 2rem;
+    padding: 10px;
+    background: rgb(34, 33, 33);
+    color: white;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 16px;
+
+}
+.last .one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.w1{
+    color: lightgreen;
+}
+.last hr{
+    /* width: 2px; */
+    /* background: white; */
+    /* height: 20px; */
+    border-right: 2px dotted gold;
+}
+.last p{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.last i{
+    font-size: 0.9rem;
+}
